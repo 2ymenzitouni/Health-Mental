@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===========================fontawesome=========================== -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- ===========================generals=========================== -->
+     <link rel="stylesheet" href="css/generals.css">
+    <!-- ===========================style=========================== -->
+     <link rel="stylesheet" href="css/style.css">
+     <!-- user -->
+      <link rel="stylesheet" href="css/user.css">
+      <style>
+        ul {
+            list-style-type: circle; /* Ensures circles for <ul> */
+            margin-left: 30px; /* Adds some indentation for nested lists */
+            list-style-position: inside;
+        }
+        ol{
+            list-style-type: decimal;
+            list-style-position: inside;
+        }
+      </style>
+    <title>Quizz</title>
+</head>
+    <body>
+        <div class="quizz">
+            <h1>Please Answer</h1>
+            <div class="container">
+                <div class="row-1">
+                    <ol>
+                        <li>
+                            <span>How long have you been feeling the way you do?</span>
+                            <ul>
+                                <li>A few days <input type="radio" name="" id=""></li>
+                                <li>A few weeks<input type="radio" name="" id=""></li>
+                                <li>A few months<input type="radio" name="" id=""></li>
+                                <li>Over a year<input type="radio" name="" id=""></li>
+                                <li>I've been struggling for a long time<input type="radio" name="" id=""></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>How often do you experience these emotional or psychological difficulties?</span>
+                            <ul>
+                                <li>Every day<input type="radio" name="" id=""></li>
+                                <li>Several times a week<input type="radio" name="" id=""></li>
+                                <li>Once a week<input type="radio" name="" id=""></li>
+                                <li>Once a month<input type="radio" name="" id=""></li>
+                                <li>Rarely<input type="radio" name="" id=""></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>Do you have any physical symptoms related to your mental health (e.g., headaches, muscle tension, sleep disturbances)?</span>
+                            <ul>
+                                <li>Yes, regularly<input type="radio" name="" id=""></li>
+                                <li>Yes, occasionally<input type="radio" name="" id=""></li>
+                                <li>No, I do not experience physical symptoms<input type="radio" name="" id=""></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>Are you looking for a short-term or long-term consultation?</span>
+                            <ul>
+                                <li>Short-term (focused on immediate relief)<input type="radio" name="" id=""></li>
+                                <li>Long-term (ongoing support to manage and work through issues)<input type="radio" name="" id=""></li>
+                                <li>I’m not sure yet<input type="radio" name="" id=""></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>How comfortable are you with discussing your feelings and thoughts with a professional?</span>
+                            <ul>
+                                <li>Very comfortable<input type="radio" name="" id=""></li>
+                                <li>Somewhat comfortable<input type="radio" name="" id=""></li>
+                                <li>Not comfortable at all<input type="radio" name="" id=""></li>
+                                <li>I’ve never spoken to a professional before<input type="radio" name="" id=""></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>What would make you feel most supported during consultations? (Select all that apply)</span>
+                            <ul>
+                                <li>A compassionate and empathetic therapist<input type="radio" name="" id=""></li>
+                                <li>Practical tools and techniques to manage my mental health<input type="radio" name="" id=""></li>
+                                <li>A structured approach with specific goals<input type="radio" name="" id=""></li>
+                                <li>A flexible and open conversation with my counselor<input type="radio" name="" id=""></li>
+                                <li>I’m not sure yet<input type="radio" name="" id=""></li>
+                            </ul>
+                        </li>
+                        <li>
+                            Do you prefer to focus on specific challenges (e.g., anxiety, depression) or a more general approach to mental wellness?
+                            <ul>
+                                <li>Specific challenges (e.g., dealing with anxiety, trauma)<input type="radio" name="" id=""></li>
+                                <li>General mental wellness (overall emotional well-being)</li>
+                                <li>I’m open to both approaches</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>Are there any barriers that might prevent you from attending regular consultations (e.g., time, location, cost)?</span>
+                            <ul>
+                                <li>Time availability (work/school schedule)<input type="radio" name="" id=""></li>
+                                <li>Cost or insurance limitations<input type="radio" name="" id=""></li>
+                                <li>Location (no nearby therapists)<input type="radio" name="" id=""></li>
+                                <li>None of the above<input type="radio" name="" id=""></li>
+                                <li>I’m unsure<input type="radio" name="" id=""></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>How do you prefer to be contacted for follow-ups or consultation scheduling?</span>
+                            <ul>
+                                <li>Email<input type="radio" name="" id=""></li>
+                                <li>Phone call<input type="radio" name="" id=""></li>
+                                <li>Text message<input type="radio" name="" id=""></li>
+                                <li>No preference<input type="radio" name="" id=""></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>Would you be open to participating in group therapy or online support communities?</span>
+                            <ul>
+                                <li>Yes, I would be interested<input type="radio" name="" id=""></li>
+                                <li>No, I prefer individual therapy<input type="radio" name="" id=""></li>
+                                <li>I’m not sure yet<input type="radio" name="" id=""></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>How do you feel about using online platforms for mental health support (e.g., virtual therapy, self-help apps)?</span>
+                            <ul>
+                                <li>Very comfortable<input type="radio" name="" id=""></li>
+                                <li>Somewhat comfortable<input type="radio" name="" id=""></li>
+                                <li>Not comfortable<input type="radio" name="" id=""></li>
+                                <li>I’ve never used one before<input type="radio" name="" id=""></li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <a href="level-of-sickness.html" id="button">Confirm</a>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

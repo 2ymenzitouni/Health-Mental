@@ -1,0 +1,83 @@
+form{
+    /* background-color: ; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 600px;
+    /* height: 600px; */
+    border-radius: 30px;
+    box-shadow: 0px 4px 7px #80808078;
+}
+form h1{
+    text-align: center;
+    font-size: 25px;
+}
+form label{
+    font-size: 15px;
+    padding: 7px 0 7px 7px;
+    display: inline-block;
+}
+form input{
+    padding: 6px 12px;
+    width: 90%;
+    border: 1px solid #1a685b65;
+    border-radius: 10px;
+}
+form .address{
+    display: flex;
+    gap: 0 20px;
+}
+form select{
+    padding: 5px 30px;
+}
+#button{
+    overlay: none;
+    border: none;
+    background-color: #1A685B !important;
+    color: #fff;
+    padding: 10px 25px;
+    width: 90%;
+    border-radius: 30px;
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+}
+form p{
+    padding: 15px 30px;
+    text-align: right;
+}
+form p a{
+    padding-left: 8px;
+    color: #1A685B;
+}
+form .problem .category{
+    display: flex;
+}
+form .password{
+    display: flex;
+}
+/* start quizz */
+.quizz{
+
+}
+.quizz h1{
+    text-align: center;
+    background-color: #1A685B;
+    color: #fff;
+    padding: 10px 0;
+}
+.quizz .row-1{
+    padding-top: 30px;
+}
+.quizz ul{
+    padding: 10px 0;
+}
+.quizz ol li span{
+    font-weight: bold;
+}
+.quizz button{
+    width: 150px;
+    margin-left: 100px;
+}

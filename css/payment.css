@@ -1,0 +1,68 @@
+.container{
+    margin-top: 100px;
+}
+.payment h1{
+    text-align: center;
+    background-color: #1A685B;
+    color: #fff;
+    padding: 10px 0;
+}
+.payment h2{
+    padding: 0 0 10px;
+}
+.review-cart{
+    box-shadow: 0px 4px 7px #80808078;
+    background-color: white;
+    padding: 20px ;
+}
+.review-cart .desc{
+    padding-left: 20px;
+}
+.review-cart .desc p:first-child{
+    font-weight: bold;
+}
+.payment .pay-methods{
+    margin-top: 30px;
+    box-shadow: 0px 4px 7px #80808078;
+    background-color: white;
+    padding: 20px ;
+}
+.payment .pay-methods .mth-names{
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+}
+.payment .pay-methods .choosed{
+    padding-top: 20px;
+}
+.payment .pay-methods .choosed h3{
+    padding-bottom: 20px;
+}
+.payment .pay-methods .choosed .image{
+    text-align: center;
+}
+.payment .pay-methods .choosed img{
+    width: 100px;
+}
+.payment .pay-methods .choosed p{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.payment .pay-methods .choosed .button{
+    width: 100%;
+    text-align: center;
+
+}
+
+.payment .pay-methods .choosed a{
+    display: inline-block;
+    background-color: #1A685B;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+
+

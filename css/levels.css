@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f4f4f4;
+	/* display: flex; */
+	/* align-items: center; */
+	/* justify-content: center; */
+	margin: 0;
+}
+
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+	/* width: 300px; */
+}
+
+.progress-done {
+	background: linear-gradient(to left, #F2709C, #FF9472);
+	box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+.levels h1{
+    text-align: center;
+    background-color: #1A685B;
+    color: #fff;
+    padding: 10px 0;
+}
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+th {
+    background-color: #f4f4f4;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.choices{
+	margin-top: 100px;
+}
+.choices .container .cards{
+    display: flex;
+    justify-content: center;
+    gap:0 50px;
+}
+.choices .container .card{
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0px 4px 7px #80808078;
+	position: relative;
+}
+.choices .container .card i{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.choices .container .card .name p{
+    font-weight: bold;
+    /* padding-bottom: 20px; */
+}
+.choices .container .card .desc{
+	/* height: 200px; */
+}
+.choices .container .card .desc p{
+    color: #91949D;
+    text-align: left;
+	padding-top: 30px;
+	/* background-color: red; */
+	/* height: 100%; */
+}
+.choices .container .card a.button {
+    background-color: #1A685B;
+	margin-top: 30px;
+}
